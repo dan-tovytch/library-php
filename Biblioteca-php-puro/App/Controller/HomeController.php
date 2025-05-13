@@ -4,8 +4,8 @@ namespace App\Controller;
 
 use Core\Controller;
 use Core\View;
-use App\Models\Book; // Certifique-se de importar o modelo Book
-use App\Database\Database; // Certifique-se de importar a classe Database
+use App\Models\Book; 
+use App\Database\Database; 
 
 class HomeController extends Controller {
     protected $bookModel;
