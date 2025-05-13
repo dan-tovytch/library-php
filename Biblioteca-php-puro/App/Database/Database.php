@@ -5,10 +5,10 @@ namespace App\Database;
 use PDO;
 use PDOException;
 
-define('DB_HOST', '192.168.1.204');
+define('DB_HOST', '');
 define('DB_NAME', 'bibliotecaphp');
 define('DB_USER', 'root');
-define('DB_PASS', '12345bf');
+define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');
 
 class Database {
